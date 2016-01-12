@@ -1,5 +1,5 @@
 {
-  "name": "pjson",
+  "name": "permissive-json",
   "version": "0.1.0",
   "description": "Permissive JSON parser",
   "main": "index.js",
