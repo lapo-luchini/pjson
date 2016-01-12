@@ -1,0 +1,19 @@
+{
+  "name": "pjson",
+  "version": "0.1.0",
+  "description": "Permissive JSON parser",
+  "main": "index.js",
+  "homepage": "https://github.com/lapo-luchini/pjson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lapo-luchini/pjson.git"
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "bugs": "https://github.com/lapo-luchini/pjson/issues",
+  "author": "Lapo Luchini <lapo@lapo.it>",
+  "license": "ISC"
+}
