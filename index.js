@@ -14,7 +14,7 @@ pjson.parse = function (str) {
     return JSON.parse(
         str
         .replace(/^\uFEFF/, '') // remove leading BOM
-        .replace(/^((?:[^"\n]|"[^"\n]*")*)\/\/.*$/mg, '$1') // remove C-style comments
+        .replace(/^((?:[^"\n\/]|\/[^\/]|"[^"\n]*")*)\/\/.*$/mg, '$1') // remove C-style comments
         .replace(/,(\s*[}])/g, '$1') // remove extra commas
     );
 };
